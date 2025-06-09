@@ -50,11 +50,6 @@
     color: whitesmoke;
 }
 
-#linkLogin{
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-size: 2vh;
-}
 #icone::before {
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
@@ -62,6 +57,16 @@
     font-size: 20px;
     margin: 0.7vh;
     align-items: center;
+}
+
+.copyright{
+    color: rgb(85, 95, 104);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.autor{
+    color: rgb(177, 176, 176);
 }
 
 @media (max-width: 600px) {
