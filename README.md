@@ -1,4 +1,4 @@
-# Corrente Vital
+# Laço Vital (LV)
 
 ## Descrição
 
