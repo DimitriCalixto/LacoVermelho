@@ -22,34 +22,20 @@
     text-align: center;
 }
 
-.ctnlg{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; 
-}
-
-#buttonsLG{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 .btn{
     padding: 1rem 2rem !important;
     font-size: 2vh !important;
     border-radius: 0.5rem !important;
 }
 
-.btnLogin{
-    display: flex;
-}
-
 .text-branco{
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
+    p{
+        color: rgb(228, 228, 228);
+    }
 }
 
+/* Login */
 #icone::before {
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
@@ -59,6 +45,11 @@
     align-items: center;
 }
 
+.btnLogin{
+    display: flex;
+}
+
+/* Roda Pé */
 .copyright{
     color: rgb(85, 95, 104);
     font-family: Arial, sans-serif;
@@ -68,6 +59,28 @@
 .autor{
     color: rgb(177, 176, 176);
 }
+
+/* Links Redes Sociais */
+.social-icons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .social-icons img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.2s ease;
+  }
+  
+  .social-icons img:hover {
+    transform: scale(1.1);
+  }
+  
 
 @media (max-width: 600px) {
     #tituloP{
