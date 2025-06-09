@@ -51,6 +51,25 @@
     display: flex;
 }
 
+#backgraund2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.buttonBack{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0,0,0,0.4);
+}
+
+.buttonBack a{
+    color: rgba(0, 0, 0, 0.822);
+}
+
 /* Roda Pé */
 .copyright{
     color: rgb(85, 95, 104);
