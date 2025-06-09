@@ -15,4 +15,4 @@ Não está vinculado a nenhuma organização real.
 - PHP
 - MySQL
 
-*Observação: Esse projeto vai ser destinado a minha universidade.
+*Observação: Esse projeto vai ser destinado a minha universidade.*
