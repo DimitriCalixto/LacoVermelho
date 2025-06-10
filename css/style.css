@@ -5,6 +5,13 @@
     font-style: normal;
 }
 
+img{
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+}
+
 .background{
     background-color: rgb(121, 18, 18);
 }
