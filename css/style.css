@@ -103,9 +103,31 @@
     transform: scale(1.1);
 }
 
+/* Mapa */
+#map{
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+}
+
 /* Responsividade */
 @media (max-width: 600px) {
     #tituloP{
         font-size: 30px;
+    }
+    #map{
+        width: 250px;
+        height: auto;
+    }    
+  }
+
+  @media (max-width: 900px) {
+    #tituloP{
+        font-size: 30px;
+    }
+    #map{
+        width: 800px;
+        height: auto;
     }    
   }
