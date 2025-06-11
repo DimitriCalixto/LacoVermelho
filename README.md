@@ -10,9 +10,9 @@ Não está vinculado a nenhuma organização real.
 
 - HTML 5
 - CSS 3
-- JavaScript
 - Bootstrap
 - PHP
 - MySQL
+- XAMPP
 
 *Observação: Esse projeto vai ser destinado a minha universidade.*
